@@ -24,32 +24,30 @@
             </nav>
         </div>
     </header>
-    <main>
-        <section id="carrinho">
-            <h2>Seu carrinho</h2>
-            <div class="item">
-                <img src="https://placehold.co/100" alt="produto 1">
-                <div class="info">
-                    <h3>Produto 1</h3>
-                    <p>Quantidade: 1</p>
-                    <p>Preço: R$ 50,00</p>
-                </div>
-                <button class="remover">Remover</button>
-            </div>
-            <div class="item">
-                <img src="https://placehold.co/100" alt="produto 2">
-                <div class="info">
-                    <h3>Produto 2</h3>
-                    <p>Quantidade: 2</p>
-                    <p>Preço: R$ 30,00</p>
-                </div>
-                <button class="remover">Remover</button>
-            </div>
-            <div class="total">
-                <h3>Total: R$80,00</h3>
-                <a href="checkout.html" class="finalizar">Finalizar Compra</a>
-            </div>
-        </section>
+
+    <main id="cadastro">
+        <h1>Cadastre-se</h1>
+        <div id="container-cadastro">
+            <form>
+               <div>
+                <label for="e-mail">E-mail:</label>
+                <input type="text" name="e-mail" id="e-mail" placeholder="Qual o seu melhor e-mail?">
+               </div> 
+               <div>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Qual o seu nome?">
+               </div> 
+               <div>
+                <label for="nascimento">Data de nascimento:</label>
+                <input type="date" name="nascimento" id="nascimento" placeholder="Quando você nasceu?">
+               </div> 
+               <div>
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha" placeholder="Crie uma senha">
+               </div> 
+            </form>
+            <button>Cadastrar</button>
+        </div>
     </main>
     <footer>
         <p>&copy; 2025 E-commerce. Todos os direitos reservados.</p>
